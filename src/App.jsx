@@ -1,5 +1,6 @@
 
 import './App.css'
+import ControlledField from './Component/ControlledFiled/ControlledField';
 import FromAction from './Component/FromAction/FromAction';
 
 function App() {
@@ -14,17 +15,17 @@ function App() {
     <>
       <section id="center">
         <h1>React From</h1>
-        <form onSubmit={handleSubmit}>
+        {/* <form onSubmit={handleSubmit}>
           <input type="text" name="name"placeholder='Enter Your Name' />
           <br />
           <input type="email" name="email" placeholder='Enter Your Email' />
           <br />
           <button type="submit">Submit</button>
-        </form>
+        </form> */}
 
       </section>
-      <FromAction></FromAction>
-
+      {/* <FromAction></FromAction> */}
+    <ControlledField></ControlledField>
 
 
     </>
