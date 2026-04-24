@@ -2,6 +2,7 @@
 import './App.css'
 import ControlledField from './Component/ControlledFiled/ControlledField';
 import FromAction from './Component/FromAction/FromAction';
+import UnControlled from './Component/UnControlled/UnControlled';
 
 function App() {
   const handleSubmit = (e) => {
@@ -25,8 +26,9 @@ function App() {
 
       </section>
       {/* <FromAction></FromAction> */}
-    <ControlledField></ControlledField>
-
+    {/* <ControlledField></ControlledField>
+     */}
+<UnControlled></UnControlled>
 
     </>
   )
