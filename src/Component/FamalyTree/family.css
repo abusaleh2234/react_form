@@ -1,0 +1,8 @@
+.familyTree div{
+    border: 1px solid thistle;
+    padding: 10px ;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+}
